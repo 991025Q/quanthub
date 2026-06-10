@@ -1,0 +1,45 @@
+# QuantHub Backend Dependencies
+
+# Web Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# Database
+sqlalchemy[asyncio]>=2.0.30
+asyncpg>=0.29.0
+psycopg2-binary>=2.9.0
+alembic>=1.13.0
+
+# Cache & Queue
+redis>=5.0.0
+celery[redis]>=5.4.0
+
+# Auth & Security
+python-jose[cryptography]>=3.3.0
+bcrypt>=4.1.0
+pydantic[email]>=2.7.0
+pydantic-settings>=2.3.0
+
+# Object Storage
+minio>=7.2.0
+
+# Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
+
+# CZSC Ecosystem (安装在本地 czsc)
+# 这些包需要从源码安装，或使用 local path
+# git+https://github.com/zengbin93/wbt.git
+# git+https://github.com/zengbin93/wmr.git
+# 暂时注释，实际使用时根据安装方式调整
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+httpx>=0.27.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+openai>=1.0.0

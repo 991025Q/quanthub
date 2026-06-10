@@ -1,0 +1,152 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env.local.dev
+
+# Environment variables
+
+.env.*
+!env.example
+
+# Database
+*.db
+*.sqlite3
+*.sql
+quanthub.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Node.js / Frontend
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env.production.local
+frontend/.env.development.local
+frontend/next-env.d.ts
+
+# Backtest reports & output
+output/
+data_cache/
+*.html
+test_*.py
+test_*.html
+test_*.pyc
+*_report.html
+*_lwc_trades.html
+*_chan_trades.html
+
+# Debugging & diagnostic scripts (development only)
+_check_*.py
+_debug_*.py
+_diag_*.py
+_e2e_*.py
+_fix_*.py
+
+# Quick checks & utilities (development only)
+quick_check.py
+check_*.py
+backup_strategies_sql.py
+migrate_*.py
+setup_*.py
+seed_*.py
+simple_setup.py
+upload_and_execute.py
+debug_ssh.py
+init_remote_db.py
+requirements_api.txt
+run_bt_test.bat
+
+# Temporary test files created during debugging
+_test_*.py
+_explain*.py
+_stream.py
+
+# AI generated files
+test_signals_quick.py
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Coverage reports
+coverage.xml
+lcov.info
+*.cover
+
+# Distribution / packaging
+dist/
+build/
+*.tar.gz
+*.whl
+.Python
+
+# PyInstaller
+*.spec
+.manifest
+.specbin
+
+# mypy type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IPython & Jupyter
+.ipynb_checkmarks/
+*.ipynb
+
+# Large data files (not source code)
+*.parquet
+*.pkl
+*.pickle
+*.csv
+*.json
+*.yaml
+*.yml
+!env.example
+!package.json
+!package-lock.json
+!tsconfig.json
+!next.config.js
+!*.config.js
